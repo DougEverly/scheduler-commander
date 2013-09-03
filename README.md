@@ -25,55 +25,57 @@ Help
 ----
 
 ```
-**help**
-&gt; Valid commands: list, add, delete, pause, resume, help, jobs```
+help
+> Valid commands: list, add, delete, pause, resume, help, jobs
+```
 
 List schedulable jobs
 ---------------------
 
 ```
-**jobs**
-&gt; +--------+---------------------+
+jobs
+> +--------+---------------------+
 | Work   | Displays some text. |
 | Looper | Displays some text. |
-+--------+---------------------+```
++--------+---------------------+
+```
 
 Add instance of a job
 ---------------------
 
 ```
-**add work\_job every 5s Work**
-&gt; Added job work\_job
+add work\_job every 5s Work
+> Added job work\_job
 ```
 
 ```
-**add loop_job in 5s Looper**
-&gt; Added job loop\_job
+add loop_job in 5s Looper
+> Added job loop\_job
 ```
 
 List scheduled jobs
 -------------------
 ```
-  **list**
-  &gt; +----------+---------+----------+---------------------------+---------------------------+
-  | Name     | Status  | Interval | Last Run                  | Next Run                  |
-  +----------+---------+----------+---------------------------+---------------------------+
-  | work_job | running | 5s       | 2013-09-03 14:15:51 -0400 | 2013-09-03 14:15:56 -0400 |
-  | loop_job | running | 5s       | 2013-09-03 14:15:38 -0400 | 2013-09-03 14:15:38 -0400 |
-  +----------+---------+----------+---------------------------+---------------------------+
+list
+> +----------+---------+----------+---------------------------+---------------------------+
+| Name     | Status  | Interval | Last Run                  | Next Run                  |
++----------+---------+----------+---------------------------+---------------------------+
+| work_job | running | 5s       | 2013-09-03 14:15:51 -0400 | 2013-09-03 14:15:56 -0400 |
+| loop_job | running | 5s       | 2013-09-03 14:15:38 -0400 | 2013-09-03 14:15:38 -0400 |
++----------+---------+----------+---------------------------+---------------------------+
 ```
 
 Add another instance of a job
 -----------------------------
 
 ```
-**add work\_job\_2 every 2s**
-&gt; Added job work\_job\_2
+add work\_job\_2 every 2s
+> Added job work\_job\_2
 ```
 
 ```
 list
-&gt; +------------+---------+----------+---------------------------+---------------------------+
+> +------------+---------+----------+---------------------------+---------------------------+
 | Name       | Status  | Interval | Last Run                  | Next Run                  |
 +------------+---------+----------+---------------------------+---------------------------+
 | work\_job   | running | 5s       | 2013-09-03 14:20:36 -0400 | 2013-09-03 14:20:41 -0400 |
@@ -87,7 +89,7 @@ Delete job
 
 ```
 delete work\_job\_2
-&gt; Deleted job work\_job\_2
+> Deleted job work\_job\_2
 ```
 
 Pause jobs
@@ -95,7 +97,7 @@ Pause jobs
 
 ```
 pause work_job
-&gt; Paused job work_job
+> Paused job work_job
 ```
 
 Resume jobs
@@ -103,5 +105,5 @@ Resume jobs
 
 ```
 resume work_job
-&gt; Resumed job work_job
+> Resumed job work_job
 ```
