@@ -44,13 +44,13 @@ Add instance of a job
 ---------------------
 
 ```
-add work\_job every 5s Work
-> Added job work\_job
+add work_job every 5s Work
+> Added job work_job
 ```
 
 ```
 add loop_job in 5s Looper
-> Added job loop\_job
+> Added job loop_job
 ```
 
 List scheduled jobs
@@ -69,8 +69,8 @@ Add another instance of a job
 -----------------------------
 
 ```
-add work\_job\_2 every 2s
-> Added job work\_job\_2
+add work_job_2 every 2s
+> Added job work_job_2
 ```
 
 ```
@@ -78,9 +78,9 @@ list
 > +------------+---------+----------+---------------------------+---------------------------+
 | Name       | Status  | Interval | Last Run                  | Next Run                  |
 +------------+---------+----------+---------------------------+---------------------------+
-| work\_job   | running | 5s       | 2013-09-03 14:20:36 -0400 | 2013-09-03 14:20:41 -0400 |
-| loop\_job   | running | 5s       | 2013-09-03 14:15:38 -0400 | 2013-09-03 14:15:38 -0400 |
-| work\_job\_2 | running | 2s       | 2013-09-03 14:20:37 -0400 | 2013-09-03 14:20:39 -0400 |
+| work_job   | running | 5s       | 2013-09-03 14:20:36 -0400 | 2013-09-03 14:20:41 -0400 |
+| loop_job   | running | 5s       | 2013-09-03 14:15:38 -0400 | 2013-09-03 14:15:38 -0400 |
+| work_job_2 | running | 2s       | 2013-09-03 14:20:37 -0400 | 2013-09-03 14:20:39 -0400 |
 +------------+---------+----------+---------------------------+---------------------------+
 ```
 
@@ -88,8 +88,8 @@ Delete job
 ----------
 
 ```
-delete work\_job\_2
-> Deleted job work\_job\_2
+delete work_job_2
+> Deleted job work_job_2
 ```
 
 Pause jobs
